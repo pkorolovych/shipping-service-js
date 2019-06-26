@@ -10,7 +10,7 @@ module.exports = {
         if (response.data && !Number.isNaN(parseFloat(response.data.weightLB))) {
           return response.data.weightLB
         } else {
-          return Promise.reject('Invalid response object')
+          return Promise.reject('Invalid response object N2')
         }
       })
       .catch( (err) => {
