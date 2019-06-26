@@ -31,7 +31,7 @@ describe('Product service', function () {
         throw(new Error('Should not resolve in case of malformed data'))
       })
       .catch(err => {
-        expect(err.message).toBe('Invalid response object')
+        expect(err.message).toBe('Invalid response object N2')
       })
   })
 })
